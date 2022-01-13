@@ -11,10 +11,10 @@ const Header = () => {
         
         <div className="relative w-24 h-24 mx-auto hidden lg:inline-grid">
           <Image
-            src={"https://links.papareact.com/3pi"}
+            src={"/Cypher_moon.png"}
             objectFit="cover"
             layout="fill"
-            alt="papa fam logo"
+            alt="cypher moon logo"
             className="rounded-full"
           />
         </div>
