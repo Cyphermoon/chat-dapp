@@ -20,14 +20,14 @@ const Header = () => {
         </div>
 
         <div className="text-left lg:text-center col-span-4">
-          <div className="relative h-48 w-48 lg:mx-auto p-2 rounded-full border-pink-600 border-8">
+          <div className="relative h-32 w-32 md:h-48 md:w-48 lg:mx-auto p-2 rounded-full border-pink-600 border-8">
             <Avatar logoutOnClick={true} />
           </div>
 
-            <h1 className="text-2xl">
+            <h1 className=" text-xl md:text-2xl">
               Welcome to CYPHER MOON metaverse project
             </h1>
-            <span className="truncate font-bold text-sm">
+            <span className="truncate font-bold text-xs md:text-sm">
              your current username is {user.getUsername()}
             </span>
 

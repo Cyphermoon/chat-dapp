@@ -14,11 +14,10 @@ const ChangeUserNameModal = ({
     setNewUserName("");
 
     if (!username) return;
-    alert(username);
 
-    // setUserData({
-    //   username,
-    // });
+    setUserData({
+      username,
+    });
 
     toggleIsModalDisplayed();
   };
